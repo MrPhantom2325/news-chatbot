@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="60" cy="60" r="54" fill="url(#gradient-bg)" />
+    
+    <!-- Abstract Brain Pattern -->
+    <path d="M40 45C40 45 50 35 60 45C70 55 80 45 80 45" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    <path d="M35 60C35 60 50 50 60 60C70 70 85 60 85 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    <path d="M40 75C40 75 50 65 60 75C70 85 80 75 80 75" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Connection Dots -->
+    <circle cx="40" cy="45" r="3" fill="white"/>
+    <circle cx="60" cy="45" r="3" fill="white"/>
+    <circle cx="80" cy="45" r="3" fill="white"/>
+    <circle cx="35" cy="60" r="3" fill="white"/>
+    <circle cx="60" cy="60" r="3" fill="white"/>
+    <circle cx="85" cy="60" r="3" fill="white"/>
+    <circle cx="40" cy="75" r="3" fill="white"/>
+    <circle cx="60" cy="75" r="3" fill="white"/>
+    <circle cx="80" cy="75" r="3" fill="white"/>
+    
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="gradient-bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#4F46E5"/>
+            <stop offset="100%" stop-color="#7C3AED"/>
+        </linearGradient>
+    </defs>
+</svg> 
